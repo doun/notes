@@ -4,7 +4,7 @@
 1. vs code中可以用typescript的编辑能力
 1. 可以直接测试component,测试快
 1. 可以用webpack的alias等方式，方便从测试代码中引用文件
-
+c96a61f34998e8941d64986999373dac5a921090
 ## Setup
 ** 入口必须是ts文件 **
 ### node packages
