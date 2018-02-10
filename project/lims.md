@@ -1,8 +1,12 @@
 ---
-title: 2018-2-11未命名文件 
-tags: 新建,模板,小书匠
+title: lims 
+tags: lims
 grammar_cjkRuby: true
 ---
 
-
-欢迎使用 **{小书匠}(xiaoshujiang)编辑器**，您可以通过 `小书匠主按钮>模板` 里的模板管理来改变新建文章的内容。
+ - 潜在客户
+	 - 各监督站
+	 - 浙江站，技术中心？
+ - 卖点
+	 - 容器化DevOps
+		 - 改进数据库支持(Postgres?)
