@@ -20,3 +20,8 @@
 #### [vue.conf.js](./files/vue.conf.js)
 如果使用browserify，则需要这个，重点是把ts代码用typescript处理后，再babel一下(从vue-jest中学到的)
 #### [jest.conf.js](./files/jest.conf.js)
+
+## 问题和处理
+
+1. javascript 不好测试，如果在template中有拼写错误，很难发现
+2. template错误，报错没有行号等信息，很烦
