@@ -4,6 +4,8 @@ tags: lims
 grammar_cjkRuby: true
 ---
 
+ - 待处理功能
+   - 文件上传后没有改权限，要转移到arch目录下
  - 潜在客户
 	 - 各监督站
 	 - 浙江站，技术中心？
