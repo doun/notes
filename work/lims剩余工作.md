@@ -10,7 +10,7 @@ grammar_cjkRuby: true
      - 流出物sel, ter, dvn, teg, ety, sek，需要注意重复样品的情况？
      - 环境
        - TLD使用了同一个comp，多个重复
-       - 氚用了testname
+       - 氚用了test name
  - 流出物
    - [ ]修改login template，使得assigned为true,解决需要手动分配的问题
    - sek的标签问题
