@@ -8,3 +8,8 @@ grammar_cjkRuby: true
 	 - 因为自己的prop可能被外部修改，vue控制台会显示mulated
  - 单例问题
 	 - 在一个comp文件中定义的变量，多次import，后面的会共享
+
+- 状态管理
+	- 简单状态管理如何实现
+		- 直接在data中引用
+- 
