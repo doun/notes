@@ -31,6 +31,8 @@ grammar_cjkRuby: true
 		- 如何按键值读取
 			- js-cookie @types/js-cookie
 
+- typescript/vue
+	- source map不全，不知道原因
 
 
 - vscode
