@@ -20,3 +20,4 @@ grammar_cjkRuby: true
 - javascript
 	- cookies
 		- 如何按键值读取
+			- js-cookie @types/js-cookie
