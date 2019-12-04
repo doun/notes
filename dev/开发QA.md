@@ -16,6 +16,16 @@ grammar_cjkRuby: true
 		def as_dict(self):
 		   return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 	
+- flask app builder
+	- 默认设置了如下日志显示，因此显示了route等
+	```python
+	import logging
+	from flask import Flask
+	from flask_appbuilder import AppBuilder, SQLA
+	logging.basicConfig(format="%(asctime)s:%(levelname)s:%(name)s:%(message)s")
+	logging.getLogger().setLevel(logging.DEBUG)
+	
+	- API接口要单独添加modelbaseapi，它与modelview实现不同
 
 - javascript
 	- cookies
