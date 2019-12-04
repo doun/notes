@@ -6,3 +6,5 @@ grammar_cjkRuby: true
 
 - git 已经跟踪的文件ignore
 	git rm --cached <file>
+    git rm --cached -r <path>
+	
