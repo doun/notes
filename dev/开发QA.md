@@ -30,3 +30,8 @@ grammar_cjkRuby: true
 	- cookies
 		- 如何按键值读取
 			- js-cookie @types/js-cookie
+
+
+
+- vscode
+	- python: 继承不显示基类成员，在mac上好像会显示
