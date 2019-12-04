@@ -10,8 +10,7 @@ grammar_cjkRuby: true
 	
 - sqlalchemy相关
 	- to_json:
-		-     
-		-    
+		- 让它先dict，然后要用urlencode，不然解析后有些额外字符，转义的问题
 		```python
 		def as_dict(self):
 		   return {c.name: getattr(self, c.name) for c in self.__table__.columns}
